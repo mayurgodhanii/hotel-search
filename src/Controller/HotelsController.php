@@ -34,13 +34,12 @@ class HotelsController extends AppController {
             if (($hotel['price'] >= $request['min_price']) && ($hotel['price'] <= $request['max_price'])) {
                 $search_results[] = $hotel;
             }
-        }
+        }               
 
         $search_results = $this->__searchHotelInColumn($search_results, "from_date", $request['from_date']);
-        $search_results = $this->__searchHotelInColumn($search_results, "to_date", $request['to_date']);       
+        $search_results = $this->__searchHotelInColumn($search_results, "to_date", $request['to_date']);
         $search_results = $this->__searchHotelInColumn($search_results, "hotel_name", $request['hotel_name']);
-        $search_results = $this->__searchHotelInColumn($search_results, "city", $request['city']);
-
+        $search_results = $this->__searchHotelInColumn($search_results, "city", $request['city']);     
 
         $f_search_results = array();
         $i = 0;
@@ -71,9 +70,9 @@ class HotelsController extends AppController {
                 }
             } else if ($column_name == "to_date") {
                 foreach ($hotels as $hotel) {
-                    $to_date = strtotime($hotel['to']);                    
-                    $search_result = strtotime($search_value);                    
-                    if ($to_date >= $search_result) {
+                    $to_date = strtotime($hotel['to']);
+                    $search_result = strtotime($search_value);
+                    if ($to_date <= $search_result) {
                         $search_results[] = $hotel;
                     }
                 }
