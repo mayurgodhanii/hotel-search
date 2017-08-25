@@ -1,0 +1,39 @@
+2017-08-25 14:49:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Khkh could not be found.
+Exception Attributes: array (
+  'class' => 'Khkh',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hotelbooking/khkh
+Stack Trace:
+#0 D:\xampp\htdocs\hotelbooking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-08-25 14:49:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Khkh could not be found.
+Exception Attributes: array (
+  'class' => 'Khkh',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hotelbooking/khkh
+Stack Trace:
+#0 D:\xampp\htdocs\hotelbooking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2017-08-25 14:51:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Khkh could not be found.
+Exception Attributes: array (
+  'class' => 'Khkh',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hotelbooking/khkh
+Stack Trace:
+#0 D:\xampp\htdocs\hotelbooking\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
