@@ -12,3 +12,9 @@ I have used php filter for the search result from the JSON.
 You can find out main logic in `/src/Controller/HotelsController.php`
 
 And Design part in, `/src/Template/Hotels/index.ctp`.
+
+### Used external libraries
+
+1. jQuery
+2. AdminLTE Theme
+3. jQuery UI
